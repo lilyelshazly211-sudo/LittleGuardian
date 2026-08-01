@@ -1,0 +1,369 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-image: url(../image/Layer\ 0.png);
+    background-size: cover;
+    color: white;
+    font-family: "Bagel Fat One", system-ui;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 60px;
+}
+
+#div1{
+    color:#E1A435;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    margin-right: 10px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+header nav li a:hover{
+    color: #fffbac;
+}
+
+header button{
+    width: 90px;
+    border: none;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 10px;
+    background: radial-gradient(#4e2fff39 , #8c2eff40)
+}
+header button:hover{
+    color: #fffbac;
+}
+
+.Home{
+    color:#FF7BBC;
+}
+
+.mission{
+    color: #F0E731;
+}
+
+.parents{
+    color: #73D45D;
+}
+.about{
+    color: #E787FF;
+}
+
+
+
+/* first section */
+#first{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#first img{
+    width: 60%;
+    height: auto;
+}
+
+#first h1{
+    font-size: 64px;
+    margin-top: 20px;
+    color: white;
+}
+
+#first p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#first button{
+    margin-top: 30px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(to right , #4e2fff37 , #8c2eff33);
+    backdrop-filter:blur(50px);
+    color: white;
+}
+
+#first button a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16px;
+}
+
+#first button a:hover{
+     color: rgba(157, 0, 255, 0.824);
+}
+
+/* 2nd section  */
+#character-section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 685.1px;
+    width: 1256.07px;
+}
+
+
+#bubble{
+    width: 269px;
+    position: absolute;
+}
+
+#meetluma{
+    text-align: center;
+    margin-left: 100px;
+}
+
+#title{
+
+    width: 377px;
+}
+
+#line{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: -480px;
+}
+
+#meetluma p{
+    width: 312px;
+    color: white;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: -65px;
+}
+ #yellow{
+    color:#F0E731; ;
+}
+#blue{
+    color: #6FE7FF;
+}
+
+
+
+/* CARD PART IS HERE */
+#cards section{
+    height: 675px;
+}
+    #cardA{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        z-index:2;
+      }
+      
+      .card-part{
+        width:320px;
+        height:420px;
+        /* position:relative; */
+        padding:40px 25px;
+        margin-right: 40px;
+        border-radius:40px;
+        background:rgba(255,255,255,0.08);
+        backdrop-filter:blur(10px);
+        border:1px solid rgba(255,255,255,0.15);
+        box-shadow:
+          0 0 30px rgba(255,0,255,0.2),
+          inset 0 0 20px rgba(255,255,255,0.05);
+      
+        overflow:hidden;
+        clip-path:polygon(
+          0 0,
+          100% 0,
+          100% 80%,
+          50% 100%,
+          0 80%
+        );
+      }
+      .card-part::before{
+        content:"";
+        position:absolute;
+        inset:0;
+        background:
+          radial-gradient(
+            circle at top left,
+            rgba(255,255,255,0.2),
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at bottom right,
+            rgba(255,0,255,0.2),
+            transparent 40%
+          );
+      
+        pointer-events:none;
+      }
+      
+      .card-part img{
+        width: 150px;
+        margin-bottom: -70px;
+        margin-left: 90px;
+      }
+      
+      #cardA h4{
+        text-align:center;
+        color:white;
+        font-size:42px;
+        margin-bottom:-20px;
+
+      }
+      
+      #cardA p{
+        color:white;
+        text-align:center;
+        opacity:0.9;
+        line-height:1.5;
+      }
+      
+      #cardA button{
+        margin-top:-40px;
+        width:100%;
+        padding:16px;
+        border:none;
+        border-radius:50px;
+        background:rgba(255,255,255,0.15);
+        color:white;
+        font-size:20px;
+        font-weight:bold;
+        backdrop-filter:blur(5px);
+        margin-left: 30px;
+        
+      }
+
+#cards button{
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    align-items: center;
+}
+
+#cards button a{
+    text-decoration: none;
+    color: white;
+}
+
+#cards button:hover{
+    background-color: #8d2eff;
+}
+
+#cards  button{
+    /* margin-top: 70px; */
+    width: 250px;
+    height: 60px; 
+    background: linear-gradient(to right , #3c1eff66 , #6f00ff5b);
+}
+
+#button{
+    width: 250px;
+    height: 60px;
+    margin-left: 40%;
+}
+
+#cards  button a{
+    color: yellow;
+    font-size: 18px;
+}
+#cards button a:hover{
+    color: #a665f7;
+}
+
+
+
+/* third section */
+#review{
+    height: 834px;
+    margin-top: 138px;
+}
+
+
+/* forth section */
+
+ footer{
+    color: white;
+    background-image: url(../image/backgroundfooter.png) ;
+}
+
+#footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-logo{
+    margin-top: 10px;
+}
+
+#footer-logo h4{
+    display: inline;
+    font-size: 35px;
+} 
+
+#footer-logo p{
+    margin-top: 20px;
+    width: 300px;
+}
+
+#footer-logo a img{
+    margin-top: 30px;
+}
+
+#quicklinks ul{
+    list-style: none;
+}
+
+#needhelp ul{
+    list-style: none;
+}
+
+#quicklinks li{
+    font-size: 16px;
+}
+
+#needhelp li{
+    font-size: 16px;
+}
+
+#quicklinks a{
+    text-decoration: none;
+    color: white;
+}
+
+#needhelp a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-bottom{
+    text-align: right;
+}
+
+#footer-bottom a{
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+}
